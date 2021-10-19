@@ -13,7 +13,40 @@ body, html {
 
 }
 
+img {
+  max-width: 500px;
+  padding: 10px;
+}
 
+.box {
+  height:auto;
+  width: auto;
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+  /* align-items: center;
+  text-align: center; */
+}
+
+.box2 {
+  padding: 20px;
+  border: solid black;
+  border-width: 20px;
+  background-color: rgb(27, 26, 26);
+  margin-bottom: 10px;
+  overflow: auto;
+  width: auto;
+  height:auto;
+}
+
+.column {
+  width: 80%;
+  float: left;
+  position:relative;
+  width: auto;
+  height:auto;
+  overflow: auto;
+}
 
 h1{
   position: absolute;
@@ -24,4 +57,17 @@ h1{
   text-align: center;
   color: beige;
   font-size: 40px;
+}
+
+p{
+  color: aliceblue;
+}
+
+ul{
+  color: aliceblue;
+}
+
+.hype{
+  font-size: 20px;
+  font-weight:bolder;
 }
